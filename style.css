@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Lato, Helvetica, sans-serif;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boite{
+  background-color: #fff;
+  box-shadow: 0 0 5px black;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+.boite h1{
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  margin: auto;
+}
+.info-input{
+  display: flex;
+}
+.taille{
+  display: flex;
+  flex-direction: column;
+}
+.poids{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+label{
+  font-size: 12px;
+}
+.submit{
+  width: fit-content;
+  margin: auto;
+}
